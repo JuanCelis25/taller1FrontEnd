@@ -32,7 +32,7 @@ body{
 }
 #Ejer{
     background-color: beige;
- grid-column: 10/47;
+ grid-column: 13/47;
  grid-row: 8/15;
  display: flex;
  align-items: center;
@@ -44,5 +44,68 @@ body{
     height: 40%;
     width: 15%;
     border-radius: 6%;
-    font-size: 120%;
+    font-size: 110%;
+}
+#ejer1{
+    background-color: cadetblue;
+    grid-column: 5/52;
+    grid-row: 19/54; 
+}
+.reto h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 270%;
+}
+.content{
+    display: flex;
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.content label{
+    font-size: 130%;
+    margin: 1%;
+}
+.content input{
+    height: 2em;
+    width: 25%;
+    margin-bottom: 1%;
+}
+.content button{
+    margin: 1.5%;
+    height: 3rem;
+    width: 25%;
+    background-color: bisque;
+}
+#close{
+    margin-top: 0.6%;
+    display: flex;
+    justify-content: end;
+}
+#ejer2{
+    display:  none;
+    background-color: cadetblue;
+    grid-column: 5/52;
+    grid-row: 19/54; 
+}
+#ejer3{
+    display:  none;
+    background-color: cadetblue;
+    grid-column: 5/52;
+    grid-row: 19/54; 
+}
+#ejer4{
+    display:  none;
+    background-color: cadetblue;
+    grid-column: 5/52;
+    grid-row: 19/54; 
+}
+#ejer5{
+    display:  none;
+    background-color: cadetblue;
+    grid-column: 5/52;
+    grid-row: 19/54; 
 }
