@@ -50,6 +50,17 @@ body{
     background-color: cadetblue;
     grid-column: 5/52;
     grid-row: 19/54; 
+    opacity: 0;
+    pointer-events: none;
+}
+#ejer1-show{
+    display: flex;
+    align-items: center;
+    background-color: cadetblue;
+    grid-column: 5/52;
+    grid-row: 19/54;
+    
+   
 }
 .reto h1{
     display: flex;
