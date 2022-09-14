@@ -20,47 +20,201 @@
     <div id="Ejer">
         
         <button id="eje1">Ejercicio 1</button>
-        <button>Ejercicio 2</button>
-        <button>Ejercicio 3</button>
-        <button>Ejercicio 4</button>
-        <button>Ejercicio 5</button>
+        <button id="eje2">Ejercicio 2</button>
+        <button id="eje3">Ejercicio 3</button>
+        <button id="eje4">Ejercicio 4</button>
+        <button id="eje5">Ejercicio 5</button>
     </div>
-    <section id="ejer1" class="ejer1" >
-                <div class="modal1" id="modal1">
-                      <div class="reto">
-                            <h1 class="title">Retos del objeto string</h1>
-                            <div class="content">
-                                <label for="palabra" id="men">Digite una palabra:</label>
-                                  <input type="text" id="palabra">
-                                  <button id="longi">Longitud</button>
-                                  <button id="mayus">Mayúsculas</button>
-                                  <button id="minis">Minúsculas</button>
-                                  <button id="fist">Primer carácter</button>
+    <section id="modales">
+        <div id="mo" class="mo">
+            <div class="modal1" id="modal1">
+                <div class="ejerci1">
+                    <span id="close" class="material-symbols-outlined">  close</span>
+                    <h1 class="title">Retos del objeto string</h1>
+                        <div class="content">
+                            <label for="palabra" id="men">Digite una palabra:</label>
+                            <input type="text" id="palabra">
+                            <button id="longi">Longitud</button>
+                            <button id="mayus">Mayúsculas</button>
+                            <button id="minis">Minúsculas</button>
+                            <button id="fist">Primer carácter</button>                 
+                        </div>
+                </div>
+            </div>                           
+        </div>
+    
+        <div id="mo2" class="mo2">
+            <div class="modal2" id="modal2">
+                  <div class="ejerci2">
+                        <span id="close2" class="material-symbols-outlined">close</span>
+                        <h1 class="titu">Convercion de temperaturas</h1>
+                        <div class="cont">
+                        <select name="grad" id="grad" class="form-select" aria-label="Disabled select example" >
+                              <option id="kelvin" value="1">Celcius a kelvin</option>
+                              <option id="Fahrenheit" value="2">Celcius a Fahrenheit</option>
+                              <option id="celcius" value="3">Fahrenheit a celcius</option>
+                              <option id="kelvin2" value="4">Fahrenheit a kelvin</option>
+                              <option id="Fahrenheit2" value="5">kelvin a Fahrenheit</option>
+                              <option id="celcius2" value="6">kelvin a celcius</option>          
+                        </select>
+                        <label for="grados">Ingrese los grados:</label>
+                        <input type="text" id="info" class="form-control">
+                        <button id="calcu" class="calcu">Calcular</button>
+                    </div>
+                  </div>
+            </div>       
+      </div>
+
+      <div id="mo3" class="mo3">
+        <div class="modal3" id="modal3">
+              <div class="ejerci3">
+                <span id="close3" class="material-symbols-outlined">close</span>
+                    <h1 class="titu">Triangulos</h1>
+                    <label for="lado1" id="lados">Digite el primer lado:</label>
+                    <input type="text" id="lado1" class="form-control">
+                    <label for="lado1" id="lados">Digite el segundo lado:</label>
+                    <input type="text" id="lado2" class="form-control">
+                    <label for="lado1" id="lados">Digite el tercer lado:</label>
+                    <input type="text" id="lado3" class="form-control">
+                    <button id="trig" class="trig">EL TRIANGULO ES....</button>                  
+              </div>
+        </div>
+        
+  </div>
+
+  <div id="mo4" class="mo4">
+    <div class="modal4" id="modal4">
+          <div class="ejerci4">
+            <span id="close4" class="material-symbols-outlined">  close</span>
+                <h1 class="titu">Instructores</h1>
+                <label for="nombre">Nombre:</label>
+                <select name="nombre" id="nombre" class="form-select" aria-label="Disabled select example" >
+                      <option id="tati" value="1">Tatiana</option>
+                      <option id="adri" value="2">Adriana</option>
+                      <option id="yane" value="3">Yaneth</option>
+                      <option id="luis" value="4">Luis</option>
+                      <option id="cris" value="5">Cristian</option>
+                      <option id="caro" value="6">Carolina</option>
+                      <option id="fern" value="7">Fernando</option>       
+                </select>
+                <label for="apellido">Apellido:</label>
+                <select name="apellido" id="apellido" class="form-select" aria-label="Disabled select example" >
+                    <option id="" value="1">Buitrago</option>
+                    <option id="" value="2">Galindo</option>
+                    <option id="" value="3">Duarte</option>
+                    <option id="" value="4">Baquero</option>
+                    <option id="" value="5">Cabrera</option>
+                    <option id="" value="6">Castillo</option>
+                    <option id="" value="7">Forero</option>          
+                </select>
+                <label for="actividad">Actividad:</label>
+                <select name="actividad" id="actividad" class="form-select" aria-label="Disabled select example" >
+                      <option id="" value="1">Front-end</option>
+                      <option id="" value="2">Proyecto</option>
+                      <option id="" value="3">Base de datos</option>
+                      <option id="" value="4">Cultura fisica</option>
+                      <option id="" value="5">Gestión ambiental</option>
+                      <option id="" value="6">PHP</option>   
+                      <option id="" value="7">Calidad</option>  
+                      <option id="" value="8">Experiencia de usuario</option>           
+                </select>
+                <button id="respu" class="respu">Verificar</button>
+                
+          </div>
+    </div>
+    
+</div>
+
+<div id="m5" class="m5">
+    <div class="modal5" id="modal5">
+          <div class="ret">
+                <h1 class="titu">Figuras geométricas</h1>
+                <div class="opc">
+                <a id="cir">Círculo</a>
+                <a id="tri">Tríangulo</a>
+                <a id="rec">Rectángulo</a>
+                <a id="cua">Cuadrado</a>
+                </div>
+                <div class="opciones op1" id="opciones">
+                    <button id="are1" class="are1">AreaC</button>
+                    <button id="per1" class="per1">PerimetroC</button>
+                </div>
+                <div class="cirArea" id="cirArea">
+                      <h1 class="tit5">Area del círculo</h1>
+                      <label for="radio">Digite el radio:</label>
+                      <input type="text" id="radio" class="form-control">
+                      <button id="Acirculo" class="btn btn-dark">Calcular</button>
+                </div>
+                <div class="cirPerimetro" id="cirPerimetro">
+                      <h1 class="tit5">Perimetro del círculo</h1>
+                      <label for="radio">Digite el radio:</label>
+                      <input type="text" id="radio1" class="form-control">
+                      <button id="Pcirculo" class="btn btn-dark">Calcular</button>
+                </div>
+
+                <div class="opciones2 op2" id="opciones2"><button id="are2" class="are2">AreaT</button><button id="per2" class="per2">PerimetroT</button></div>
+                <div class="triArea" id="triArea">
+                      <h1 class="tit5">Area del Triangulo</h1>
+                      <label for="base1">Digite la base:</label>
+                      <input type="text" id="base1" class="form-control">
+                      <label for="altura1">Digite la altura:</label>
+                      <input type="text" id="altura1" class="form-control">
+                      <button id="Atriangulo" class="btn btn-dark">Calcular</button>
+                </div>
+                <div class="triPer" id="triPer">
+                      <h1 class="tit5">Perimetro del Triangulo</h1>
+                      <label for="lad1">Digite el lado 1:</label>
+                      <input type="text" id="lad1" class="form-control">
+                      <label for="lado2">Digite el lado 2:</label>
+                      <input type="text" id="lad2" class="form-control">
+                      <label for="lado3">Digite el lado 3:</label>
+                      <input type="text" id="lad3" class="form-control">
+                      <button id="Ptriangulo" class="btn btn-dark">Calcular</button>
+                </div>
+                
+                <div class="opciones3 op3" id="opciones3"><button id="are3" class="are3">AreaR</button><button id="per3" class="per3">PerimetroR</button></div>
+                      <div class="areaRec" id="areaRec">
+                      <h1 class="tit5">Area del rectangulo</h1>
+                      <label for="bas">Digite la base:</label>
+                      <input type="text" id="bas" class="form-control">
+                      <label for="alt">Digite la altura:</label>
+                      <input type="text" id="alt" class="form-control">
+                      <button id="Arectangulo" class="btn btn-dark">Calcular</button>
+                      </div>
+                      <div class="periRec" id="periRec">
+                            <h1 class="tit5">Perimetro del rectangulo</h1>
+                            <label for="bas2">Digite la base:</label>
+                            <input type="text" id="bas2" class="form-control">
+                            <label for="alt2">Digite la altura:</label>
+                            <input type="text" id="alt2" class="form-control">
+                            <button id="Prectangulo" class="btn btn-dark">Calcular</button>
                             </div>
-                            <span id="close" class="material-symbols-outlined">  close</span>
-                      </div>          
-        </div>
+
+                <div class="opciones4 op4" id="opciones4"><button id="are4" class="are4">AreaCU</button><button id="per4" class="per4">PerimetroCU</button></div>
+                <div class="areaCua" id="areaCua">
+                      <h1 class="tit5">Area del cuadrado</h1>
+                      <label for="bas">Digite el lado:</label>
+                      <input type="text" id="basi" class="form-control">
+                      <button id="ArecCuadra" class="btn btn-dark">Calcular</button>
+                      </div>
+                      <div class="periCua" id="periCua">
+                            <h1 class="tit5">Perimetro del cuadrado</h1>
+                            <label for="bas2">Digite el lado:</label>
+                            <input type="text" id="basi2" class="form-control">
+                            <button id="PreCuadra" class="btn btn-dark">Calcular</button>
+                            </div>
+                
+                <span id="close5" class="material-symbols-outlined">close</span>
+          </div>
+    </div>
+    
+</div>
+
+</div>
+
+
+
     </section>
-    <div id="ejer2">
-        <div id="">
-            
-        </div>
-    </div>
-    <div id="ejer3">
-        <div id="">
-            
-        </div>
-    </div>
-    <div id="ejer4">
-        <div id="">
-            
-        </div>
-    </div>
-    <div id="ejer5">
-        <div id="">
-            
-        </div>
-    </div>
     </section>
     <script src="js/modal.js"></script>
 </body>

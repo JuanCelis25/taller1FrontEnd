@@ -30,6 +30,7 @@ body{
     font-size: 300%;
     font-family: 'Times New Roman', Times, serif;
 }
+
 #Ejer{
     background-color: beige;
  grid-column: 13/47;
@@ -46,23 +47,41 @@ body{
     border-radius: 6%;
     font-size: 110%;
 }
-#ejer1{
-    background-color: cadetblue;
-    grid-column: 5/52;
-    grid-row: 19/54; 
-    opacity: 0;
-    pointer-events: none;
+/*Modelaes*/
+#modales{
+    background-color: rgb(210, 209, 209);
+    grid-column: 1/56;
+    grid-row: 17/56; 
 }
-#ejer1-show{
+
+/*MOdal1*/
+.mo{
+    height: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
-    background-color: cadetblue;
-    grid-column: 5/52;
-    grid-row: 19/54;
-    
-   
+    display: none;
+     
 }
-.reto h1{
+.remplazo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;   
+}
+.modal1{
+    height: 95%;
+    width: 95%;
+    background-color: rgba(153, 153, 153, 0.596);
+    border-radius: 5px;
+}
+#close{
+    display: flex;
+    justify-content: end;
+    color: red; 
+}
+.ejerci1 h1{
     display: flex;
     justify-content: center;
     margin-top: 2%;
@@ -91,29 +110,200 @@ body{
     width: 25%;
     background-color: bisque;
 }
-#close{
-    margin-top: 0.6%;
+
+/*modal2*/
+.mo2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+     
+}
+.remplazo2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;   
+}
+.modal2{
+    height: 95%;
+    width: 95%;
+    background-color: rgba(153, 153, 153, 0.596);
+    border-radius: 5px;
+}
+#close2{
     display: flex;
     justify-content: end;
+    color: red; 
+}.ejerci2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-#ejer2{
-    display:  none;
-    background-color: cadetblue;
-    grid-column: 5/52;
-    grid-row: 19/54; 
+.ejerci2 h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-size: 270%;
+}.ejerci2 select{
+    box-shadow: 2px 2px 7px black;
+    width: 40%;
+    height: 3.5em;
+    margin-left: 30% ;
+    margin-bottom: 3%;
+}.ejerci2 label{
+    font-size: 140%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5%;
+}.ejerci2 input{
+    box-shadow: 2px 2px 7px black;
+    width: 40%;
+    height: 3.5em;
+    margin-left: 30% ;
+    margin-bottom: 3%;
+}.ejerci2 button{
+    font-size: 110%;
+    background-color: brown;
+    color: antiquewhite;
+    width: 12%;
+    height: 3.5rem;
+    margin-left: 44%;
+    margin-top: 1%;
+    border-radius: 5%;
+    border: 2px solid black;
 }
-#ejer3{
-    display:  none;
-    background-color: cadetblue;
-    grid-column: 5/52;
-    grid-row: 19/54; 
+
+
+/*Modal 3*/
+.mo3{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+     
 }
-#ejer4{
-    display:  none;
-    background-color: cadetblue;
-    grid-column: 5/52;
-    grid-row: 19/54; 
+.remplazo3{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;   
 }
+.modal3{
+    height: 95%;
+    width: 95%;
+    background-color: rgba(153, 153, 153, 0.596);
+    border-radius: 5px;
+}
+#close3{
+    display: flex;
+    justify-content: end;
+    color: red; 
+}.ejerci3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ejerci3 h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 270%;
+}.ejerci3 label{
+    font-size: 140%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5%;
+}.ejerci3 input{
+    box-shadow: 2px 2px 7px black;
+    width: 40%;
+    height: 3.5em;
+    margin-left: 30% ;
+    margin-bottom: 1%;
+}.ejerci3 button{
+    font-size: 110%;
+    background-color: brown;
+    color: antiquewhite;
+    width: 15%;
+    height: 3.5rem;
+    margin-left: 42.6%;
+    margin-top: 1%;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+
+/*Modal 4*/
+
+.mo4{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   display: none;
+     
+}
+.remplazo4{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;   
+}
+.modal4{
+    height: 95%;
+    width: 95%;
+    background-color: rgba(153, 153, 153, 0.596);
+    border-radius: 5px;
+}
+#close4{
+    display: flex;
+    justify-content: end;
+    color: red; 
+}.ejerci4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ejerci4 h1{
+    display: flex;
+    justify-content: center;
+    margin-top: -1%;
+    font-size: 270%;
+}.ejerci4 label{
+    font-size: 140%;
+    display: flex;
+    justify-content: center;
+    margin-top: -1%;
+}.ejerci4 select{
+    box-shadow: 2px 2px 7px black;
+    width: 40%;
+    height: 3em;
+    margin-left: 30% ;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}.ejerci4 button{
+    font-size: 110%;
+    background-color: brown;
+    color: antiquewhite;
+    width: 15%;
+    height: 3.5rem;
+    margin-left: 42.6%;
+    margin-top: 6%;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+
 #ejer5{
     display:  none;
     background-color: cadetblue;
