@@ -303,10 +303,203 @@ body{
     border: 2px solid black;
 }
 
+/*Modal5*/
+.mo5{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+     
+}
+.remplazo5{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;   
+}
+.modal5{
+    height: 95%;
+    width: 95%;
+    background-color: rgba(153, 153, 153, 0.596);
+    border-radius: 5px;
+}
+#close5{
+    display: flex;
+    justify-content: end;
+    color: red; 
+}.ejerci5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ejerci5 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 270%;
+    
+}.figu{
+    display: flex;
+    justify-content: space-around;
+    
+}#cir, #tri, #rec, #cua{
+    background-color: beige;
+    height: 2.3em;
+    width: 13%;
+    font-size: 110%;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid blanchedalmond;
+    border-radius: 4%;
+    box-shadow: 2px 2px 6px black;
+}#cir:hover ,#tri:hover, #rec:hover, #cua:hover, #areC:hover ,#perC:hover, #areT:hover, #perT:hover{
+    transition: 0.5s;
+    background-color: rgba(253, 222, 222, 0.705);
+    text-decoration: none;    
+    color: black;
 
-#ejer5{
-    display:  none;
-    background-color: cadetblue;
-    grid-column: 5/52;
-    grid-row: 19/54; 
+/*Circulo*/ 
+}.arepe{
+    display: flex;
+    justify-content: space-evenly; 
+}#areC, #perC{
+    margin-top: 1.7%;
+    background-color: beige;
+    height: 2.3em;
+    width: 13%;
+    font-size: 110%;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid blanchedalmond;
+    border-radius: 4%;
+    box-shadow: 2px 2px 6px black;
+}.cirArea{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}.cambi{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}.cambi h1{
+    font-size: 240%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%; 
+}.cambi label{
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 0.5%; 
+}.cambi input{
+    box-shadow: 2px 2px 7px black;
+    width: 40%;
+    height: 3.5em;
+    margin-bottom: 1%;
+}.cambi button{
+    font-size: 110%;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    width: 15%;
+    height: 3.5rem;
+    margin-top: 1%;
+    border-radius: 5%;
+    border: 3px solid black;
+    box-shadow: 2px 2px 7px black;
+}
+.cirPerimetro{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+/*Triangulo*/
+.arepe2{
+    display: flex;
+    justify-content: space-evenly; 
+}#areT, #perT{
+    margin-top: 1.7%;
+    background-color: beige;
+    height: 2.3em;
+    width: 13%;
+    font-size: 110%;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid blanchedalmond;
+    border-radius: 4%;
+    box-shadow: 2px 2px 6px black;
+}.triArea{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}.cambi2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}.cambi2 h1{
+    font-size: 240%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5%; 
+}.cambi2 label{
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    margin-top: -0.7%;
+    margin-bottom: 0.3%; 
+}.cambi2 input{
+    box-shadow: 2px 2px 7px black;
+    width: 40%;
+    height: 3.5em;
+    margin-bottom: 0.3%;
+}.cambi2 button{
+    font-size: 110%;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    width: 15%;
+    height: 3.5rem;
+    margin-top: 0.5%;
+    border-radius: 5%;
+    border: 3px solid black;
+    box-shadow: 2px 2px 7px black;
+}
+.triPerimetro{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+
+.re1{
+    display: none;
+}
+.re2{
+    display: none;
+}
+.re3{
+    display: none;
+}
+.re4{
+    display: none;
+}
+.mostrar{
+    display: flex;
 }
