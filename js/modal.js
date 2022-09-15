@@ -88,16 +88,9 @@ const opcion = document.getElementById('arepe');
 circulo.addEventListener('click',()=>{
       opcion.classList.replace('re1','mostrar');
       opcion2.classList.replace('mostrar','re2');
-      opc3.classList.replace('mostrar','op3');
-      opc4.classList.replace('mostrar','op4');
-
+      
       TrianguloA.classList.replace("cambi2","triArea");
       TrianguloP.classList.replace('cambi2','triPerimetro');
-      
-      pRec.classList.replace('show3','periRec');
-      ARec.classList.replace('show3','areaRec');
-      arcu2.classList.replace('show4','periCua');
-      arcu.classList.replace('show4','areaCua');
 });
 
 /*Triangulo*/
@@ -106,16 +99,10 @@ const opcion2 = document.getElementById('arepe2');
 triangulo.addEventListener('click',()=>{
       opcion2.classList.replace('re2','mostrar');
       opcion.classList.replace('mostrar','re1');
-      opc3.classList.replace('mostrar','op3');
-      opc4.classList.replace('mostrar','op4');
 
       circuloA.classList.replace('cambi','cirArea');
       circuloP.classList.replace('cambi','cirPerimetro');
-      pRec.classList.replace('show3','periRec');
-      ARec.classList.replace('show3','areaRec');
-      arcu2.classList.replace('show4','periCua');
-      arcu.classList.replace('show4','areaCua');
-      
+
 });
 
 /*Circulo */
