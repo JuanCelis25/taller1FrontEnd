@@ -88,35 +88,74 @@ const opcion = document.getElementById('arepe');
 circulo.addEventListener('click',()=>{
       opcion.classList.replace('re1','mostrar');
       opcion2.classList.replace('mostrar','re2');
-      opc3.classList.replace('mostrar','op3');
-      opc4.classList.replace('mostrar','op4');
+      opcion3.classList.replace('mostrar','re3');
+      opcion4.classList.replace('mostrar','re4');
 
       TrianguloA.classList.replace("cambi2","triArea");
       TrianguloP.classList.replace('cambi2','triPerimetro');
-      
-      pRec.classList.replace('show3','periRec');
-      ARec.classList.replace('show3','areaRec');
-      arcu2.classList.replace('show4','periCua');
-      arcu.classList.replace('show4','areaCua');
+      RectanguloA.classList.replace('cambi3','recArea');
+      RectanguloP.classList.replace('cambi3','recPerimetro');
+      CuadradoA.classList.replace('cambi4','cuaArea');
+      CuadradoP.classList.replace('cambi4','cuaPerimetro');
+
 });
 
 /*Triangulo*/
 const triangulo = document.getElementById('tri');
 const opcion2 = document.getElementById('arepe2');
 triangulo.addEventListener('click',()=>{
-      opcion2.classList.replace('re2','mostrar');
       opcion.classList.replace('mostrar','re1');
-      opc3.classList.replace('mostrar','op3');
-      opc4.classList.replace('mostrar','op4');
+      opcion2.classList.replace('re2','mostrar');
+      opcion3.classList.replace('mostrar','re3');
+      opcion4.classList.replace('mostrar','re4');
 
       circuloA.classList.replace('cambi','cirArea');
       circuloP.classList.replace('cambi','cirPerimetro');
-      pRec.classList.replace('show3','periRec');
-      ARec.classList.replace('show3','areaRec');
-      arcu2.classList.replace('show4','periCua');
-      arcu.classList.replace('show4','areaCua');
+      RectanguloA.classList.replace('cambi3','recArea');
+      RectanguloP.classList.replace('cambi3','recPerimetro');
+      CuadradoA.classList.replace('cambi4','cuaArea');
+      CuadradoP.classList.replace('cambi4','cuaPerimetro');
+      
       
 });
+
+/*Rectangulo */
+const rectangulo = document.getElementById('rec');
+const opcion3 = document.getElementById('arepe3');
+rectangulo.addEventListener('click',()=>{
+      opcion.classList.replace('mostrar','re1');
+      opcion2.classList.replace('mostrar','re2');
+      opcion3.classList.replace('re3','mostrar');
+      opcion4.classList.replace('mostrar','re4');
+
+      circuloA.classList.replace('cambi','cirArea');
+      circuloP.classList.replace('cambi','cirPerimetro');
+      TrianguloA.classList.replace("cambi2","triArea");
+      TrianguloP.classList.replace('cambi2','triPerimetro');
+      CuadradoA.classList.replace('cambi4','cuaArea');
+      CuadradoP.classList.replace('cambi4','cuaPerimetro');
+      
+});
+
+/*Cuadrado */
+const cuadrado = document.getElementById('cua');
+const opcion4 = document.getElementById('arepe4');
+cuadrado.addEventListener('click',()=>{
+      opcion.classList.replace('mostrar','re1');
+      opcion2.classList.replace('mostrar','re2');
+      opcion3.classList.replace('mostrar','re3');
+      opcion4.classList.replace('re4','mostrar');
+      
+      circuloA.classList.replace('cambi','cirArea');
+      circuloP.classList.replace('cambi','cirPerimetro');
+      TrianguloA.classList.replace("cambi2","triArea");
+      TrianguloP.classList.replace('cambi2','triPerimetro');
+      RectanguloA.classList.replace('cambi3','recArea');
+      RectanguloP.classList.replace('cambi3','recPerimetro');
+      
+      
+});
+
 
 /*Circulo */
 const areaCirculo = document.getElementById('areC');
@@ -146,5 +185,31 @@ periTriangulo.addEventListener('click',()=>{
       TrianguloP.classList.replace('triPerimetro','cambi2');
 });
 
+/*Rectangulo */
+const areaRectangulo = document.getElementById('areR');
+const RectanguloA = document.getElementById('recArea');
+areaRectangulo.addEventListener('click', ()=>{
+      RectanguloA.classList.replace('recArea','cambi3');
+      RectanguloP.classList.replace('cambi3','recPerimetro');
+});
+const periRectangulo = document.getElementById('perR');
+const RectanguloP = document.getElementById('recPerimetro');
+periRectangulo.addEventListener('click',()=>{
+      RectanguloA.classList.replace('cambi3','recArea');
+      RectanguloP.classList.replace('recPerimetro','cambi3');
+});
 
+/*Cuadrado */
+const areaCuadrado = document.getElementById('areCu');
+const CuadradoA = document.getElementById('cuaArea');
+areaCuadrado.addEventListener('click', ()=>{
+      CuadradoA.classList.replace('cuaArea','cambi4');
+      CuadradoP.classList.replace('cambi4','cuaPerimetro');
+});
+const periCuadrado = document.getElementById('perCu');
+const CuadradoP = document.getElementById('cuaPerimetro');
+periCuadrado.addEventListener('click',()=>{
+      CuadradoA.classList.replace('cambi4','cuaArea');
+      CuadradoP.classList.replace('cuaPerimetro','cambi4');
+});
 

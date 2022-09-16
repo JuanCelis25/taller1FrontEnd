@@ -353,7 +353,7 @@ body{
     border: 2px solid blanchedalmond;
     border-radius: 4%;
     box-shadow: 2px 2px 6px black;
-}#cir:hover ,#tri:hover, #rec:hover, #cua:hover, #areC:hover ,#perC:hover, #areT:hover, #perT:hover{
+}#cir:hover ,#tri:hover, #rec:hover, #cua:hover, #areC:hover ,#perC:hover, #areT:hover, #perT:hover,#areR:hover, #perR:hover,#areCu:hover, #perCu:hover{
     transition: 0.5s;
     background-color: rgba(253, 222, 222, 0.705);
     text-decoration: none;    
@@ -368,7 +368,7 @@ body{
     background-color: beige;
     height: 2.3em;
     width: 13%;
-    font-size: 110%;
+    font-size: 95%;
     font-family: 'Times New Roman', Times, serif;
     border: 2px solid blanchedalmond;
     border-radius: 4%;
@@ -432,7 +432,7 @@ body{
     background-color: beige;
     height: 2.3em;
     width: 13%;
-    font-size: 110%;
+    font-size: 85%;
     font-family: 'Times New Roman', Times, serif;
     border: 2px solid blanchedalmond;
     border-radius: 4%;
@@ -479,6 +479,134 @@ body{
     box-shadow: 2px 2px 7px black;
 }
 .triPerimetro{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+/*Rectangulo*/
+.arepe3{
+    display: flex;
+    justify-content: space-evenly; 
+}#areR, #perR{
+    margin-top: 1.7%;
+    background-color: beige;
+    height: 2.3em;
+    width: 13%;
+    font-size: 85%;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid blanchedalmond;
+    border-radius: 4%;
+    box-shadow: 2px 2px 6px black;
+}.recArea{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}.cambi3{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}.cambi3 h1{
+    font-size: 240%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5%; 
+}.cambi3 label{
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    margin-top: -0.7%;
+    margin-bottom: 0.3%; 
+}.cambi3 input{
+    box-shadow: 2px 2px 7px black;
+    width: 40%;
+    height: 3.5em;
+    margin-bottom: 0.3%;
+}.cambi3 button{
+    font-size: 110%;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    width: 15%;
+    height: 3.5rem;
+    margin-top: 0.5%;
+    border-radius: 5%;
+    border: 3px solid black;
+    box-shadow: 2px 2px 7px black;
+}
+.recPerimetro{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+/*Cuadrado*/
+.arepe4{
+    display: flex;
+    justify-content: space-evenly; 
+}#areCu, #perCu{
+    margin-top: 1.7%;
+    background-color: beige;
+    height: 2.3em;
+    width: 13%;
+    font-size: 85%;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid blanchedalmond;
+    border-radius: 4%;
+    box-shadow: 2px 2px 6px black;
+}.cuaArea{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}.cambi4{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}.cambi4 h1{
+    font-size: 240%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%; 
+}.cambi4 label{
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 0.5%; 
+}.cambi4 input{
+    box-shadow: 2px 2px 7px black;
+    width: 40%;
+    height: 3.5em;
+    margin-bottom: 1%;
+}.cambi4 button{
+    font-size: 110%;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    width: 15%;
+    height: 3.5rem;
+    margin-top: 1%;
+    border-radius: 5%;
+    border: 3px solid black;
+    box-shadow: 2px 2px 7px black;
+}
+.cuaPerimetro{
     height: 100%;
     display: flex;
     justify-content: center;
