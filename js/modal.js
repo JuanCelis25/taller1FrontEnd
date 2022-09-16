@@ -7,6 +7,20 @@ abrir.addEventListener('click', ()=>{
       modal2.classList.replace("remplazo2","mo2");
       modal3.classList.replace("remplazo3","mo3");
       modal4.classList.replace("remplazo4","mo4");
+
+      opcion.classList.replace('mostrar','re1');
+      opcion2.classList.replace('mostrar','re2');
+      opcion3.classList.replace('mostrar','re3');
+      opcion4.classList.replace('mostrar','re4');
+
+      circuloA.classList.replace('cambi','cirArea');
+      circuloP.classList.replace('cambi','cirPerimetro');
+      TrianguloA.classList.replace("cambi2","triArea");
+      TrianguloP.classList.replace('cambi2','triPerimetro');
+      RectanguloA.classList.replace('cambi3','recArea');
+      RectanguloP.classList.replace('cambi3','recPerimetro');
+      CuadradoA.classList.replace('cambi4','cuaArea');
+      CuadradoP.classList.replace('cambi4','cuaPerimetro');
 });
 cerrar.addEventListener('click', ()=>{
       modal.classList.replace('remplazo','mo');
@@ -24,6 +38,20 @@ abrir2.addEventListener('click', ()=>{
       modal3.classList.replace("remplazo3","mo3");
       modal4.classList.replace("remplazo4","mo4");
       modal5.classList.replace("remplazo5","mo5");
+
+      opcion.classList.replace('mostrar','re1');
+      opcion2.classList.replace('mostrar','re2');
+      opcion3.classList.replace('mostrar','re3');
+      opcion4.classList.replace('mostrar','re4');
+
+      circuloA.classList.replace('cambi','cirArea');
+      circuloP.classList.replace('cambi','cirPerimetro');
+      TrianguloA.classList.replace("cambi2","triArea");
+      TrianguloP.classList.replace('cambi2','triPerimetro');
+      RectanguloA.classList.replace('cambi3','recArea');
+      RectanguloP.classList.replace('cambi3','recPerimetro');
+      CuadradoA.classList.replace('cambi4','cuaArea');
+      CuadradoP.classList.replace('cambi4','cuaPerimetro');
 });
 cerrar2.addEventListener('click', ()=>{
       modal2.classList.replace('remplazo2','mo2');
@@ -41,6 +69,20 @@ abrir3.addEventListener('click', ()=>{
       modal2.classList.replace("remplazo2","mo2");
       modal4.classList.replace("remplazo4","mo4");
       modal5.classList.replace("remplazo5","mo5");
+
+      opcion.classList.replace('mostrar','re1');
+      opcion2.classList.replace('mostrar','re2');
+      opcion3.classList.replace('mostrar','re3');
+      opcion4.classList.replace('mostrar','re4');
+
+      circuloA.classList.replace('cambi','cirArea');
+      circuloP.classList.replace('cambi','cirPerimetro');
+      TrianguloA.classList.replace("cambi2","triArea");
+      TrianguloP.classList.replace('cambi2','triPerimetro');
+      RectanguloA.classList.replace('cambi3','recArea');
+      RectanguloP.classList.replace('cambi3','recPerimetro');
+      CuadradoA.classList.replace('cambi4','cuaArea');
+      CuadradoP.classList.replace('cambi4','cuaPerimetro');
 });
 cerrar3.addEventListener('click', ()=>{
       modal3.classList.replace('remplazo3','mo3');
@@ -58,6 +100,20 @@ abrir4.addEventListener('click', ()=>{
       modal2.classList.replace("remplazo2","mo2");
       modal3.classList.replace("remplazo3","mo3");
       modal5.classList.replace("remplazo5","mo5");
+
+      opcion.classList.replace('mostrar','re1');
+      opcion2.classList.replace('mostrar','re2');
+      opcion3.classList.replace('mostrar','re3');
+      opcion4.classList.replace('mostrar','re4');
+
+      circuloA.classList.replace('cambi','cirArea');
+      circuloP.classList.replace('cambi','cirPerimetro');
+      TrianguloA.classList.replace("cambi2","triArea");
+      TrianguloP.classList.replace('cambi2','triPerimetro');
+      RectanguloA.classList.replace('cambi3','recArea');
+      RectanguloP.classList.replace('cambi3','recPerimetro');
+      CuadradoA.classList.replace('cambi4','cuaArea');
+      CuadradoP.classList.replace('cambi4','cuaPerimetro');
       
 });
 cerrar4.addEventListener('click', ()=>{
@@ -75,6 +131,20 @@ abrir5.addEventListener('click', ()=>{
       modal2.classList.replace("remplazo2","mo2");
       modal3.classList.replace("remplazo3","mo3");
       modal4.classList.replace("remplazo4","mo4");
+
+      opcion.classList.replace('mostrar','re1');
+      opcion2.classList.replace('mostrar','re2');
+      opcion3.classList.replace('mostrar','re3');
+      opcion4.classList.replace('mostrar','re4');
+
+      circuloA.classList.replace('cambi','cirArea');
+      circuloP.classList.replace('cambi','cirPerimetro');
+      TrianguloA.classList.replace("cambi2","triArea");
+      TrianguloP.classList.replace('cambi2','triPerimetro');
+      RectanguloA.classList.replace('cambi3','recArea');
+      RectanguloP.classList.replace('cambi3','recPerimetro');
+      CuadradoA.classList.replace('cambi4','cuaArea');
+      CuadradoP.classList.replace('cambi4','cuaPerimetro');
 });
 cerrar5.addEventListener('click', ()=>{
       modal5.classList.replace('remplazo5','mo5');
