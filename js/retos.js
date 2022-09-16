@@ -129,7 +129,7 @@ const triPe = document.getElementById('pTriangulo');
 triPe.addEventListener('click', ()=>{
       const la = document.getElementById('lad').value;
       const lad = document.getElementById('lado').value;
-      const lado1 = document.getElementById('lado3').value;
+      const lado1 = document.getElementById('lado4').value;
       const peri = parseFloat(la)+ parseFloat(lad)+ parseFloat(lado1);
       alert(`El perimetro del triangulo es: ${peri}`);  
 });

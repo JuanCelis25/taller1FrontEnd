@@ -11,12 +11,12 @@ body{
 #hea{
     grid-column: 1/56;
     grid-row: 1/17;
-    background-color: aqua;
+    background-color: rgb(217, 235, 235);
 }
 #fondo{
     display: flex;
     flex-direction: row;
-    background-color: antiquewhite;
+    background-color: rgb(248, 243, 205);
     grid-column: 3/54;
     grid-row: 2/16;
 }
@@ -32,7 +32,7 @@ body{
 }
 
 #Ejer{
-    background-color: beige;
+    background-color: rgb(238, 238, 212);
  grid-column: 13/47;
  grid-row: 8/15;
  display: flex;
@@ -46,6 +46,7 @@ body{
     width: 15%;
     border-radius: 6%;
     font-size: 110%;
+    box-shadow: 3px 3px 6px black;
 }
 /*Modelaes*/
 #modales{
@@ -496,7 +497,7 @@ body{
     background-color: beige;
     height: 2.3em;
     width: 13%;
-    font-size: 85%;
+    font-size: 79%;
     font-family: 'Times New Roman', Times, serif;
     border: 2px solid blanchedalmond;
     border-radius: 4%;
@@ -614,8 +615,6 @@ body{
     flex-direction: column;
     display: none;
 }
-
-
 .re1{
     display: none;
 }
@@ -630,4 +629,230 @@ body{
 }
 .mostrar{
     display: flex;
+}
+
+/*Moviles*/
+@media screen and (min-width: 320px) and (max-width:500px) {
+#fondo{
+    display: flex;
+    justify-content: center;
+}
+#fondo h1{
+    display: none;
+}
+#fondo img{
+    width: 33%;
+    height: 43%;   
+}#Ejer{
+    background-color: transparent;
+grid-column: 5/52;
+ grid-row: 8/15;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+#Ejer button{
+    width: 40%;
+    margin: 2%;
+    height: 23%;
+    font-size: 85%;
+}.ejerci1 h1,.ejerci2 h1,.ejerci3 h1,.ejerci4 h1,.ejerci5 h1{
+    font-size: 170%;
+    padding: 1%;
+}.ejerci1 input{
+    width: 70%;
+}.ejerci1 button{
+    width: 60%;
+    margin-top: 7%;
+}.ejerci2 select, .ejerci4 select{
+    width: 60%;
+    height: 2.5em;
+    margin-left: 20%;
+}.ejerci2 input, .ejerci3 input{
+    margin-top: 5%;
+    width: 70%;
+    height: 2.5em;
+    margin-left: 15%;
+}.ejerci2 button, .ejerci3 button, .ejerci4 button{
+    width: 60%;
+    height: 2em;
+    margin-left: 20%;
+    margin-top: 7%;
+}.ejerci4 label{
+    margin-top: 5%;
+}.figu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}#cir, #tri, #rec, #cua{
+    width: 23%;
+    height: 2em;
+    font-size: 80%;
+}
+#areC, #perC, #areT, #perT, #areR, #perR, #areCu, #perCu{
+    margin-top: 5%;
+    width: 44%;
+    height: 2em;
+    font-size: 80%;
+}.cambi input, .cambi2 input, .cambi3 input, .cambi4 input{
+    width: 70%;
+    height: 2.5em;
+}.cambi button, .cambi2 button, .cambi3 button, .cambi4 button{
+    margin-top: 5%;
+    width: 70%;
+    height: 2.5em;
+}.cambi3 h1{
+    font-size: 165%;
+} 
+}
+
+/*Medias*/
+@media screen and (min-width: 501px) and (max-width:720px) {
+#fondo h1{
+    font-size: 230%;
+    margin-top: 5%;
+    margin-left: 6%;
+}
+#fondo img{
+    width: 27%;
+    height: 40%;   
+}
+#Ejer{
+    background-color: transparent;
+grid-column: 5/52;
+ grid-row: 8/15;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}#Ejer button{
+    width: 40%;
+    margin: 1%;
+    height: 30%;
+    font-size: 100%;
+}.ejerci1 h1,.ejerci2 h1,.ejerci3 h1,.ejerci4 h1,.ejerci5 h1{
+    font-size: 220%;
+    padding: 1%;
+}.ejerci1 input{
+    width: 70%;
+    height: 2.5em;
+}.ejerci1 button{
+    width: 60%;
+    margin-top: 5%;
+}.ejerci2 select, .ejerci4 select{
+    width: 80%;
+    height: 2.5em;
+    margin-left: 10%;
+}.ejerci2 input, .ejerci3 input{
+    margin-top: 5%;
+    width: 70%;
+    height: 2.5em;
+    margin-left: 15%;
+}.ejerci2 button, .ejerci3 button, .ejerci4 button{
+    width: 60%;
+    height: 3em;
+    margin-left: 20%;
+    margin-top: 7%;
+}.ejerci4 label{
+    margin-top: 5%;
+}.figu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}#cir, #tri, #rec, #cua{
+    width: 23%;
+    height: 2em;
+    font-size: 130%;
+}
+#areC, #perC, #areT, #perT, #areR, #perR, #areCu, #perCu{
+    margin-top: 5%;
+    width: 44%;
+    height: 2em;
+    font-size: 100%;
+}.cambi input, .cambi2 input, .cambi3 input, .cambi4 input{
+    width: 70%;
+    height: 2.5em;
+}.cambi button, .cambi2 button, .cambi3 button, .cambi4 button{
+    margin-top: 5%;
+    width: 70%;
+    height: 2.5em;
+}.cambi3 h1{
+    font-size: 205%;
+} 
+}
+
+/*Laptop*/
+@media screen and (min-width: 721px) and (max-width:1024px) {
+#fondo h1{
+    font-size: 300%;
+    margin-top: 5%;
+    margin-left: 14%;
+}
+#fondo img{
+    width: 20%;
+    height: 40%;   
+}   
+#Ejer{
+    background-color: transparent;
+grid-column: 5/52;
+ grid-row: 8/16;
+ display: flex;
+ flex-direction: row;
+ margin-top: 3%;
+}#Ejer button{
+    width: 40%;
+    margin: 1%;
+    font-size: 100%;
+}.ejerci1 h1,.ejerci2 h1,.ejerci3 h1,.ejerci4 h1,.ejerci5 h1{
+    font-size: 220%;
+    padding: 1%;
+}.ejerci1 input{
+    width: 70%;
+    height: 2.5em;
+}.ejerci1 button{
+    width: 60%;
+    margin-top: 3%;
+}.ejerci2 select, .ejerci4 select{
+    width: 80%;
+    height: 3em;
+    margin-left: 10%;
+}.ejerci2 input, .ejerci3 input, .ejerci4 input{
+    margin-top: 1%;
+    width: 70%;
+    height: 3em;
+    margin-left: 15%;
+}.ejerci2 button, .ejerci3 button, .ejerci4 button{
+    width: 60%;
+    height: 3em;
+    margin-left: 20%;
+    margin-top: 3%;
+}.ejerci4 label{
+    margin-top: 2%;
+}.figu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}#cir, #tri, #rec, #cua{
+    width: 23%;
+    height: 2em;
+    font-size: 130%;
+}
+#areC, #perC, #areT, #perT, #areR, #perR, #areCu, #perCu{
+    margin-top: 5%;
+    width: 44%;
+    height: 2em;
+    font-size: 120%;
+}.cambi input, .cambi2 input, .cambi3 input, .cambi4 input{
+    width: 70%;
+    height: 2.5em;
+}.cambi button, .cambi3 button, .cambi4 button{
+    margin-top: 5%;
+    width: 70%;
+    height: 2.5em;
+}.cambi3 h1{
+    font-size: 205%;
+} .cambi2 button{
+    margin-top: 1.5%;
+    width: 70%;
+    height: 2.5em;
+}
 }
