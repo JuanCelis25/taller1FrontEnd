@@ -1,35 +1,34 @@
 /*Reto1*/
-/*LONGITUD*/
+
 const longi = document.getElementById('longi');
 longi.addEventListener('click', ()=>{
       const palabra = document.getElementById('palabra').value;
       const calculo = palabra.length;
       alert(`la longitud de la "${palabra}" es: ${calculo}`);
 });
-/*MAYUSCULAS */
+
 const mayus = document.getElementById('mayus');
 mayus.addEventListener('click', ()=>{
       const palabra = document.getElementById('palabra').value;
       const calculo = palabra.toUpperCase();
       alert(`"${palabra}" en mayúscula es: "${calculo}"`);
 });
-/*MINUSCULAS*/
+
 const mini = document.getElementById('minis');
 mini.addEventListener('click', ()=>{
       const palabra = document.getElementById('palabra').value;
       const calculo = palabra.toLowerCase();
       alert(`"${palabra}" en minúsculas es: "${calculo}"`);
 });
-/*PRIMERA LETRA */
-const uni = document.getElementById('fist');
-uni.addEventListener('click', ()=>{
+
+const fist = document.getElementById('fist');
+fist.addEventListener('click', ()=>{
       const palabra = document.getElementById('palabra').value;
       const calculo = palabra.charAt();
       alert(`la primera letra de "${palabra}" es: "${calculo}"`);
 });
 
 /*Reto2*/
-/*CONVERTIR GRADOS*/
 const calcul = document.getElementById('calcu');
 calcul.addEventListener('click', ()=>{
       const datos = document.getElementById('grad').value;
@@ -70,7 +69,7 @@ indagar.addEventListener('click',()=>{
       }else if(lado1==lado2 || lado2==lado3 || lado1==lado3){
             alert(`El triangulo es isósceles, dos lados son similares.`);
       }else{
-            alert(`El triangulo es ecaleno, todos sus lados son diferentes.`);
+            alert(`El triangulo es escaleno, todos sus lados son diferentes.`);
       }  
 })
 
@@ -84,21 +83,21 @@ respuesta.addEventListener('click', ()=>{
       parseInt(ape); 
       parseInt(materia);
             if(nom== 1 && ape==5 && materia==1 || materia==7){
-                  alert("RESPUESTA CORRECTA!!")
+                  alert("Correcto")
             }else if(nom== 2 && ape==3 && materia==8){
-                  alert("RESPUESTA CORRECTA!!")
+                  alert("Correcto")
             }else if(nom== 3 && ape==6 && materia==5){
-                  alert("RESPUESTA CORRECTA!!")
+                  alert("Correcto")
             }else if(nom== 4 && ape==4 && materia==4){
-                  alert("RESPUESTA CORRECTA!!")
+                  alert("Correcto")
             }else if(nom== 5 && ape==1 && materia==6){
-                  alert("RESPUESTA CORRECTA!!")
+                  alert("Correcto")
             }else if(nom== 6 && ape==7 && materia==2){
-                  alert("RESPUESTA CORRECTA!!")
+                  alert("Correcto")
             }else if(nom== 7 && ape==2 && materia==3){
-                  alert("RESPUESTA CORRECTA!!")
+                  alert("Correcto")
             }else{
-                  alert("RESPUESTA INCORRECTA¡¡")
+                  alert("incorrecto")
             }    
 });
 

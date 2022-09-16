@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index2.css">
+    <title>Formulario</title>
+</head>
+<body>
+<section class="container_complete">
+    <h1>Registrar usuario</h1>
+    <form id="register" class="register" action="" method="POST">
+
+    <div class="labels" id="f_tipdoc">
+            <label for="tipdoc">Tipo de documento</label>
+        
+        <div id="group_input">
+            <select name="tipdo" id="tipdo" class="fr_input">
+                <option value="0">Cedula</option>
+                <option value="1">Cedula de Extrangeria</option>
+                <option value="2">Trajeta de identidad</option>
+                <option value="3">NIT</option>
+            </select>
+            <span class="msg_error">Seleccione un tipo de documento</span>
+        </div>
+    </div>
+
+    <div class="labels" id="f_nodoc">
+        <label for="nudoc">No. Documento</label>
+        <div id="group_input">
+            <input type="text" id="nudoc" class="nudoc" maxlength="10" minlength="1">
+            <span class="msg_error">Solo puede ingresar numeros de minimo 7 y maximo 10 digitos</span>
+        </div>
+    </div>
+
+    <div class="labels" id="f_nom">
+        <label for="nom">Nombre:</label>
+        <div id="group_input">
+            <input type="text" id="nom" class="nom">
+            <span class="msg_error">Solo puede ingresar letras y un maximo de 40 caracteres</span>
+        </div>
+    </div>
+
+        <label for="ape">Apellido:</label>
+        <div id="ape">
+            <input type="text">
+        </div>
+
+        <label for="fecNA">Fecha de Nacimiento:</label>
+        <div id="fecNa">
+            <input type="date">
+        </div>
+
+        <label for="correo">Correo Eletronico</label>
+        <div id="correo">
+            <input type="text">
+        </div>
+
+        <label for="passWo1">Password</label>
+        <div id="passWo1">
+            <input type="password">
+        </div>
+
+        <label for="passWo2">Comprobar password</label>
+        <div id="passWo2">
+            <input type="password">
+        </div>
+
+        <div id="termi">
+            </a><input type="checkbox"><a href="">Terminos de condiciones</a>
+        </div>
+
+        <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+</section>
+
+<script src="js/validaciones.js"></script>
+</body>
+</html>

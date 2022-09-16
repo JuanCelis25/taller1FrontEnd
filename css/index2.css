@@ -1,0 +1,24 @@
+
+*{
+    margin: 0%;
+}
+.container_complete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/**/
+.msg_error{
+    color: #5ccdfa;
+    font-size: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.msg_error_visible{
+    visibility: visible;
+    opacity: 1;
+}
