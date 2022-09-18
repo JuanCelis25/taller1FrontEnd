@@ -13,8 +13,7 @@
     <form id="register" class="register" action="" method="POST">
 
     <div class="labels" id="f_tipdoc">
-            <label for="tipdoc">Tipo de documento</label>
-        
+        <label for="tipdoc">Tipo de documento</label>
         <div id="group_input">
             <select name="tipdo" id="tipdo" class="fr_input">
                 <option value="0">Cedula</option>
@@ -29,46 +28,83 @@
     <div class="labels" id="f_nodoc">
         <label for="nudoc">No. Documento</label>
         <div id="group_input">
-            <input type="text" id="nudoc" class="nudoc" maxlength="10" minlength="1">
-            <span class="msg_error">Solo puede ingresar numeros de minimo 7 y maximo 10 digitos</span>
+            <input type="text" id="nodoc" class="nodoc" name="nodoc" >
+            <i class="frm-icono fas fa-times-circle"></i>
+            <span class="msg_error">Solo puede ingresar numeros de minimo 5 y maximo 10 digitos</span>
         </div>
     </div>
 
     <div class="labels" id="f_nom">
         <label for="nom">Nombre:</label>
         <div id="group_input">
-            <input type="text" id="nom" class="nom">
+            <input type="text" name="nom" id="nom" class="nom">
+            <i class="frm-icono fas fa-times-circle"></i>
             <span class="msg_error">Solo puede ingresar letras y un maximo de 40 caracteres</span>
         </div>
     </div>
 
+    <div class="labels" id="f_ape">
         <label for="ape">Apellido:</label>
-        <div id="ape">
-            <input type="text">
+        <div id="group_input">
+            <input type="text" class="ape" id="ape" name="ape">
+            <i class="frm-icono fas fa-times-circle"></i>
+            <span class="msg_error">Solo puede ingresar letras y un maximo de 40 caracteres</span>
         </div>
+    </div>
 
-        <label for="fecNA">Fecha de Nacimiento:</label>
-        <div id="fecNa">
-            <input type="date">
+    <div class="labels" id="f_fecNa">
+        <label for="fecNa">Fecha de Nacimiento:</label>
+        <div id="group_input">
+            <input type="date" class="fecNa" id="fecNa" name="fecNa" required="Por favor ingresar su fecha de nacimiento" min="2002-01-01" max="2022-09-17">
         </div>
+    </div>
 
+    <div class="labels" id="f_correo">
         <label for="correo">Correo Eletronico</label>
-        <div id="correo">
-            <input type="text">
+        <div id="group_input">
+            <input type="text" class="correo" id="correo" name="correo">
+            <i class="frm-icono fas fa-times-circle"></i>
+            <span class="msg_error">El correo debe de tener un "@" obligatoriamente y un "." despues</span>
         </div>
+    </div>
 
+    <div class="labels" id="f_passWo1"> 
         <label for="passWo1">Password</label>
-        <div id="passWo1">
-            <input type="password">
+        <div id="group_input">
+            <input type="password" id="passWo1" class="passWo1" name="passWo1">
+            <i class="frm-icono fas fa-times-circle"></i>
+            <span class="msg_error">La contraseña debe de incluir minimo 10 caracteres, 1 simbolo, 1 mayuscula y 1 minuscula y 1 numero</span>
         </div>
+    </div>
 
+    <div class="labels" id="f_passWo2">
         <label for="passWo2">Comprobar password</label>
-        <div id="passWo2">
-            <input type="password">
+        <div id="group_input">
+            <input type="password" id="passWo2" class="passWo2" name="passWo2">
+            <i class="frm-icono fas fa-times-circle"></i>
+            <span class="msg_error">La confirmacion de la contraseña no es igual</span>
+        </div>
+    </div>
+
+    <div class="labels" id="f_terminos">
+        <label id="termi" class="termi">
+            <input class="frm checkbox" type="checkbox" name="terminos" id="terminos">
+            Acepto los terminos y condiciones
+        </label>
+    </div>
+
+   
+        <div class="frm-no-enviado" id="frm-no-enviado">
+            <p><i class="fas fa_times-triangle"></i> <b>Error:</b> Hay campos incompletos o incorrectos.</p>
         </div>
 
-        <div id="termi">
-            </a><input type="checkbox"><a href="">Terminos de condiciones</a>
+        <div id="moda" class="moda">
+            
+            <div class="modal_cotainer">
+            <span id="close" class="material-symbols-outlined">X</span>
+            <h1>Terminos y condiciones</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque atque, unde officiis sapiente quis aperiam quas perferendis odit ipsam velit exercitationem ratione repudiandae cupiditate tempore laborum nemo iusto, aliquam dolorem!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque corporis voluptatem inventore dolorem eum delectus ratione sapiente veritatis doloribus, ipsam laboriosam et dolorum velit ab fugit! Harum consequatur voluptates sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae minus laboriosam, qui sit accusantium iure fuga quos beatae illum, fugiat iste soluta incidunt, molestias id inventore? Pariatur suscipit error iure.</p>
+            </div>
         </div>
 
         <button type="submit" class="btn-enviar">Enviar</button>
@@ -76,5 +112,7 @@
 </section>
 
 <script src="js/validaciones.js"></script>
+
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 </body>
 </html>
