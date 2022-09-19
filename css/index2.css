@@ -54,7 +54,13 @@ form{
     background-color: antiquewhite;
     border: 1px solid ;
     border-radius: 5%;
-    margin-bottom: 7%;
+    margin-bottom: 3%;
+}
+.container_complete a{
+    font-size: 150%;
+    text-decoration: none;
+    color: black;
+    height: 1em;
 }
 #terminos{
  margin: 7%;
@@ -63,9 +69,7 @@ form{
     width: 100%;
     height: 3em;  
 }
-.fecNa{
-    width: 100em;
-    height: 3em; 
+.fecNa{ 
     margin-bottom: 5%;  
 }
 /**/
