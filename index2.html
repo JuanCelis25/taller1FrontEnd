@@ -28,8 +28,7 @@
     <div class="labels" id="f_nodoc">
         <label for="nudoc">No. Documento</label>
         <div id="group_input">
-            <input type="text" id="nodoc" class="nodoc" name="nodoc" >
-            <i class="frm-icono fas fa-times-circle"></i>
+            <i class="frm-icono fas fa-times-circle"><input type="text" id="nodoc" class="nodoc" name="nodoc" ></i>
             <span class="msg_error">Solo puede ingresar numeros de minimo 5 y maximo 10 digitos</span>
         </div>
     </div>
@@ -37,8 +36,7 @@
     <div class="labels" id="f_nom">
         <label for="nom">Nombre:</label>
         <div id="group_input">
-            <input type="text" name="nom" id="nom" class="nom">
-            <i class="frm-icono fas fa-times-circle"></i>
+            <i class="frm-icono fas fa-times-circle"><input type="text" name="nom" id="nom" class="nom" ></i>
             <span class="msg_error">Solo puede ingresar letras y un maximo de 40 caracteres</span>
         </div>
     </div>
@@ -46,8 +44,7 @@
     <div class="labels" id="f_ape">
         <label for="ape">Apellido:</label>
         <div id="group_input">
-            <input type="text" class="ape" id="ape" name="ape">
-            <i class="frm-icono fas fa-times-circle"></i>
+            <i class="frm-icono fas fa-times-circle"><input type="text" class="ape" id="ape" name="ape"></i>
             <span class="msg_error">Solo puede ingresar letras y un maximo de 40 caracteres</span>
         </div>
     </div>
@@ -55,40 +52,38 @@
     <div class="labels" id="f_fecNa">
         <label for="fecNa">Fecha de Nacimiento:</label>
         <div id="group_input">
-            <input type="date" class="fecNa" id="fecNa" name="fecNa" required="Por favor ingresar su fecha de nacimiento" min="2002-01-01" max="2022-09-17">
+            <input type="date" class="fecNa" id="fecNa" name="fecNa" required min="2002-01-01" max="2022-09-17">
         </div>
     </div>
 
     <div class="labels" id="f_correo">
         <label for="correo">Correo Eletronico</label>
         <div id="group_input">
-            <input type="text" class="correo" id="correo" name="correo">
-            <i class="frm-icono fas fa-times-circle"></i>
+            <i class="frm-icono fas fa-times-circle"><input type="text" class="correo" id="correo" name="correo"></i>
             <span class="msg_error">El correo debe de tener un "@" obligatoriamente y un "." despues</span>
         </div>
     </div>
 
     <div class="labels" id="f_passWo1"> 
-        <label for="passWo1">Password</label>
+        <label for="passWo1">Password:</label>
         <div id="group_input">
-            <input type="password" id="passWo1" class="passWo1" name="passWo1">
-            <i class="frm-icono fas fa-times-circle"></i>
+            <i class="frm-icono fas fa-times-circle"><input type="password" id="passWo1" class="passWo1" name="passWo1"></i>
             <span class="msg_error">La contraseña debe de incluir minimo 10 caracteres, 1 simbolo, 1 mayuscula y 1 minuscula y 1 numero</span>
         </div>
+        
     </div>
 
     <div class="labels" id="f_passWo2">
-        <label for="passWo2">Comprobar password</label>
+        <label for="passWo2">Comprobar password:</label>
         <div id="group_input">
-            <input type="password" id="passWo2" class="passWo2" name="passWo2">
-            <i class="frm-icono fas fa-times-circle"></i>
+            <i class="frm-icono fas fa-times-circle"><input type="password" id="passWo2" class="passWo2" name="passWo2"></i>
             <span class="msg_error">La confirmacion de la contraseña no es igual</span>
         </div>
     </div>
 
     <div class="labels" id="f_terminos">
+        <input class="frm-checkbox" type="checkbox" name="terminos" id="terminos">
         <label id="termi" class="termi">
-            <input class="frm checkbox" type="checkbox" name="terminos" id="terminos">
             Acepto los terminos y condiciones
         </label>
     </div>

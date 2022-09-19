@@ -2,20 +2,79 @@
 *{
     margin: 0%;
 }
+body{
+    background: url(../img/fondo_formulario3.jpg); 
+}
 .container_complete{
+    
+    margin: auto;
+    background-color: rgba(240, 248, 255, 0.843);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 60%;
 }
-
-
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+#group_input{
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column; 
+}
+.labels label{
+    display: flex;
+    justify-content: center;
+}
+#f_terminos{
+    display: flex;
+}
+.container_complete h1{
+    margin-top: 3%;
+    font-size: 280%;
+    margin-bottom: 3%;
+}
+.container_complete label{
+    font-size: 140%;
+}
+#group_input input{
+  width: 91%;
+  height: 1.7em;
+   
+}
+.btn-enviar{
+    font-size: 110%;
+    width: 30%;
+    height: 3em;
+    background-color: antiquewhite;
+    border: 1px solid ;
+    border-radius: 5%;
+    margin-bottom: 7%;
+}
+#terminos{
+ margin: 7%;
+}
+.container_complete select{
+    width: 100%;
+    height: 3em;  
+}
+.fecNa{
+    width: 100em;
+    height: 3em; 
+    margin-bottom: 5%;  
+}
 /**/
 .msg_error{
-    color: #5ccdfa;
-    font-size: 10px;
+    color: #f50000;
     visibility: hidden;
     opacity: 0;
+    font-size: 95%;
+    margin-bottom: 2%;
 }
 
 .msg_error_visible{
@@ -103,4 +162,25 @@
     color: red;
     margin-left: 105%;
     margin-top: -7%; 
+}
+
+@media screen and (min-width: 721px) and (max-width: 1024px)  {
+.container_complete{
+    width: 70%;
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .container_complete{
+        width: 100%;
+    }
+    .container_complete h1{
+        font-size: 250%;
+    }     
+}
+
+@media screen and (min-width: 501px) and (max-width: 720px) {
+    .container_complete{
+        width: 80%;
+    }   
 }
